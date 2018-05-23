@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "mBank po staremu",
+  "version": "0.1.0",
+  "description": "Ciesz się starą wersją wyglądu mpanelu w mBanku!",
+  "content_scripts": [
+    {
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://online.mbank.pl/*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
