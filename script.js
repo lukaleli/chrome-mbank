@@ -1,3 +1,6 @@
 var className = 'lifting'
-document.querySelector('body').classList.remove(className)
-document.querySelector('html').classList.remove(className)
+var selectors = ['body', 'html']
+
+selectors.forEach(function(selector) {
+  document.querySelector(selector).classList.remove(className)
+})
